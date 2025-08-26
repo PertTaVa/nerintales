@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>NER и интертекстуальность</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Извлечение сущностей из текста</h1>
+    <form method="post">
+        <label for="lang">Выберите язык:</label>
+        <select name="lang" id="lang" required>
+            <option value="">--Выберите--</option>
+            <option value="ru" {% if lang == 'ru' %}selected{% endif %}>Русский</option>
+            <option value="fi" {% if lang == 'fi' %}selected{% endif %}>Финский</option>
+            <option value="sv" {% if lang == 'sv' %}selected{% endif %}>Шведский</option>
+        </select><br/><br/>
+        <textarea name="text" rows="10" cols="60" placeholder="Вставьте текст здесь..." required>{{ text }}</textarea><br/>
+        <button type="submit">Извлечь сущности</button>
+    </form>
+
+    {% if entities %}
+    <h2>Найденные сущности:</h2>
+    <ul>
+        {% for ent in entities %}
+        <li>{{ ent[0] }} — {{ ent[1] }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+</html>
+
