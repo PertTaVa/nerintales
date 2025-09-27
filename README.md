@@ -1,12 +1,11 @@
 # 🧩 NERINTALES
 
-**NERINTALES** — a prototype system for Named Entity Recognition (NER) and intertextuality analysis in fairy tales in Russian, Finnish, and Swedish.
-
+**NERINTALES** — a prototype system for Named Entity Recognition (NER) and intertextuality analysis in Finnish, Swedish and Russian languages 
 ---
 
 ## About the Project
 This project allows you to:  
-- Upload a fairy tale text in three languages: Russian, Finnish, Swedish  
+- Upload a text
 - Extract named entities using **spaCy** and **Stanza**  
 - Analyze intertextuality by comparing entities  
 - View results through a **Flask web interface**
@@ -17,12 +16,12 @@ GitHub @PertTaVa
 
 # 🧩 NERINTALES 
 
-**NERINTALES** — прототип системы для извлечения именованных сущностей (NER) и анализа интертекстуальных связей в сказках на русском, финском и шведском языках.
+**NERINTALES** — прототип системы для извлечения именованных сущностей (NER) и анализа интертекстуальных связей на финском, шведском и русском языках
 
 ## О проекте
 Этот проект позволяет:
-- Загружать текст сказки на трёх языках: русский, финский, шведский
-- Извлекать именованные сущности с помощью spaCy и Stanza
+- Загружать текст
+- Извлекать именованные сущности (NER) с помощью spaCy и Stanza
 - Анализировать интертекстуальность через сравнение сущностей
 - Просматривать результаты через веб-интерфейс на Flask
 
