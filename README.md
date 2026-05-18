@@ -1,6 +1,6 @@
-🧩 NERINTALES
+NERintales
 
-NERINTALES — a prototype system for Named Entity Recognition (NER) and intertextuality analysis in Finnish, Swedish and Russian languages 
+NERintales — a prototype system for Named Entity Recognition (NER) and intertextuality analysis in Finnish, Swedish and Russian languages 
 
 About the Project
 This project allows you to:  
@@ -13,8 +13,9 @@ Contacts
 GitHub @PertTaVa 
 
 
-🧩 NERINTALES — прототип системы для извлечения именованных сущностей (NER) и анализа интертекстуальных связей на финском, шведском и русском языках.
+NERintales — прототип системы для извлечения именованных сущностей (NER) и анализа интертекстуальных связей на финском, шведском и русском языках.
 О проекте
+
 Этот проект позволяет:
 - Загружать текст
 - Извлекать именованные сущности (NER) с помощью spaCy и Stanza
